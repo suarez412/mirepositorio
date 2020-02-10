@@ -1,0 +1,31 @@
+
+
+
+#####configurar proxy#####
+git config --global http.proxy http://proxyune:8080
+
+#####clonar#####
+git clone "url clonar de git"
+
+
+####configuracion####
+git config --global user.name "mi nombre"
+
+
+####configuracion####
+git config --global user.email "mi correo git"
+
+####reporte de que han subido o actualizado####
+git status
+
+####actualiza local####
+git add .
+
+####comentarios despues de todo add####
+git commit -m
+
+####actualiza repositorio####
+git push
+
+####descargar repositorio####
+git pull
