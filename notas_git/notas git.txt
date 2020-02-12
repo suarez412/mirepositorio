@@ -39,6 +39,9 @@ git add nombre_archivo
 ####comentarios despues de todo add####
 git commit -m
 
+####ayuda sobre comando commit####
+git commit -help
+
 ####actualiza repositorio####
 git push
 git push origin master
@@ -54,3 +57,15 @@ git rm -rf directorio
 
 ####remover archivo####
 git rm -f nombre_archivo
+
+####quitar archivo de add para no subir####
+git rm --cache nombre_archivo
+
+####log####
+git log
+
+####cambiar de rama####
+git checkout nombre_de_la_rama
+
+####crear rama####
+git checkout -b rama_nueva
