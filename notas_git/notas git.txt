@@ -16,6 +16,9 @@ git clone "url clonar de git"
 ####monitorizar carpeta####
 git init
 
+####agregar repositorio remoto####
+git remote add origin url
+
 ####configuracion####
 git config --global user.name "mi nombre"
 
@@ -31,12 +34,23 @@ git mkdir
 
 ####actualiza local####
 git add .
+git add nombre_archivo
 
 ####comentarios despues de todo add####
 git commit -m
 
 ####actualiza repositorio####
 git push
+git push origin master
 
 ####descargar repositorio####
 git pull
+
+####crear archivo####
+git touch nombre_archivo.txt
+
+####remover directorio####
+git rm -rf directorio
+
+####remover archivo####
+git rm -f nombre_archivo
