@@ -37,7 +37,10 @@ git add .
 git add nombre_archivo
 
 ####comentarios despues de todo add####
-git commit -m
+git commit -m "mensaje"
+
+####comenter con add incluido####
+git commit -a -m "mensaje"
 
 ####ayuda sobre comando commit####
 git commit -help
