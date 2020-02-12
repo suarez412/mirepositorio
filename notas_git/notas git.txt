@@ -1,5 +1,11 @@
+#####breve exploicacion de como funciona git#####
+https://www.youtube.com/watch?v=Uw8SIaAK-vw
 
-
+#####url comandos git####
+ingles
+https://github.com/joshnh/Git-Commands
+español
+https://codingpotions.com/git-comandos-basicos-avanzados
 
 #####configurar proxy#####
 git config --global http.proxy http://proxyune:8080
@@ -7,6 +13,8 @@ git config --global http.proxy http://proxyune:8080
 #####clonar#####
 git clone "url clonar de git"
 
+####monitorizar carpeta####
+git init
 
 ####configuracion####
 git config --global user.name "mi nombre"
@@ -17,6 +25,9 @@ git config --global user.email "mi correo git"
 
 ####reporte de que han subido o actualizado####
 git status
+
+####crear carpeta####
+git mkdir
 
 ####actualiza local####
 git add .
