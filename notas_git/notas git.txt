@@ -51,6 +51,11 @@ git push origin master
 
 ####descargar repositorio####
 git pull
+git pull origin master
+
+####descargar repositorio a al fuerza cuando salga mensaje fatal####
+git pull origin master --allow-unrelated-histories
+
 
 ####crear archivo####
 git touch nombre_archivo.txt
